@@ -33,6 +33,17 @@ app.get('/api/v1/user', function (req, res) {
     })
 })
 
+// For test migration to AWS
+app.get('/api/v1/serverless', function (req, res) {
+    res.send({
+        Key: "ServerLess",
+        status: "OK"
+    })
+})
+
 app.listen(3000, function(){
     console.log("I am running!")
 });
+
+// Add for migration to AWS
+module.exports = app;
