@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+button {
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: tomato;
+}
+
+img {
+    width: 750px;
+    height: 500px;
+}
